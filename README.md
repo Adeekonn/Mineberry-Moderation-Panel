@@ -71,35 +71,6 @@ This opens the moderation panel for that player.
 
 ---
 
-## Commands Used by Panel
-
-```text
-alts <username>
-checkmute <username> server:*
-checkban <username> server:*
-history <username>
-history <username> <page>
-warn <username> ...
-mute <username> ...
-ban <username> ...
-```
-
----
-
-## Build / Run
-
-### Compile
-```powershell
-.\gradlew.bat compileJava
-```
-
-### Run Client (Dev)
-```powershell
-.\gradlew.bat runClient
-```
-
----
-
 ## License
 
 See [LICENSE](./LICENSE).
